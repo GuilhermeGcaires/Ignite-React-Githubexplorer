@@ -1,5 +1,11 @@
+import { RepositoryList } from './components/RepositoryList';
+import './styles/global.scss';
 
 export function App(){
-    throw new Error('Roberto');
-    return <h1> Hello World tESTE! </h1>
+    return (
+    <>
+        <RepositoryList />
+    </>
+    )
+    
 }
